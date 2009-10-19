@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2006-2007 Gunther Eysenbach, Juan Pablo Alperin, MJ Suhonos
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+ -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.paymethod.pagseguro.displayName">PagSeguro</message>
+
+	<!-- PayPal Settings Form -->
+	<message key="plugins.paymethod.pagseguro.settings.creditenable">Enable CC.</message>
+	<message key="plugins.paymethod.pagseguro.settings.crediturl">URL</message>
+	<message key="plugins.paymethod.pagseguro.settings.crediturl.description"><![CDATA[This is the URL to PagSeguroPayment.]]></message>
+	<message key="plugins.paymethod.pagseguro.settings.curlNotInstalled">Warning: CURL support for PHP is not installed. PagSeguro payment support requires the CURL library and will not function until it is installed.</message>
+	<message key="plugins.paymethod.pagseguro.settings">PagSeguro Settings</message>
+	<message key="plugins.paymethod.pagseguro.purchase.title">Payment details</message>
+
+	<!-- Credit Card -->
+	<message key="plugins.paymethod.pagseguro">PagSeguro UOL Payment</message>
+	<message key="plugins.paymethod.pagseguro.description"><![CDATA[The PagSeguro Plugin enables users, to pay using their credit card from PagSeguro UOL.]]></message>
+	<message key="plugins.paymethod.pagseguro.warning">Clicking on "Continue" you will direct to our online payment site.</message>
+	<message key="plugins.paymethod.pagseguro.purchase.amount">Amount</message>
+	<message key="plugins.paymethod.pagseguro.purchase.description">Description</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cancelled">Your purchase has been cancelled.</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cancelled.title">Purchase Cancelled</message>
+	<message key="plugins.paymethod.pagseguro.purchase.operator">Card</message>
+	<message key="plugins.paymethod.pagseguro.purchase.address">Address (Fill all fields)</message>
+	<message key="plugins.paymethod.pagseguro.purchase.street">Street</message>
+	<message key="plugins.paymethod.pagseguro.purchase.distreet">District</message>
+	<message key="plugins.paymethod.pagseguro.purchase.city">City</message>
+	<message key="plugins.paymethod.pagseguro.purchase.state">State (Ex: NY, BO)</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cpf">ID(CPF)</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cep">ZIP</message>
+
+</locale>

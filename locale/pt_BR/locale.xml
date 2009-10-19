@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2006-2007 Gunther Eysenbach, Juan Pablo Alperin, MJ Suhonos
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the pt_BR locale.
+  *
+ -->
+ 
+<locale name="pt_BR" full_name="Português (Brasil)">
+	<message key="plugins.paymethod.pagseguro.displayName">PagSeguro</message>
+
+	<!-- PayPal Settings Form -->
+	<message key="plugins.paymethod.pagseguro.settings.paypalenable">Ativar Cartão</message>
+	<message key="plugins.paymethod.pagseguro.settings.crediturl">URL</message>
+	<message key="plugins.paymethod.pagseguro.settings.crediturl.description"><![CDATA[Esta é a URL do serviço de pagamentos da PagSeguro.]]></message>
+	<message key="plugins.paymethod.pagseguro.settings.curlNotInstalled">Atenção: a biblioteca CURL, para PHP, não está instalada. Suporte aos pagamentos via CC necessitam da biblioteca CURL e não funcionará até que a mesma esteja instalada.</message>
+	<message key="plugins.paymethod.pagseguro.settings">Configurações do Sistema</message>
+	<message key="plugins.paymethod.pagseguro.purchase.title">Detalhes do pagamento</message>
+
+	<!-- PayPal -->
+	<message key="plugins.paymethod.pagseguro">Pagamento via PagSeguro UOL</message>
+	<message key="plugins.paymethod.pagseguro.description"><![CDATA[Aceitará todos os principais cartões de crédito.</a>]]></message>
+	<message key="plugins.paymethod.pagseguro.warning">Ao clicar em "Continue", você será direcionado automaticamente ao site de pagamentos online PagSeguro para efetuar o pagamento da sua inscrição.</message>
+	<message key="plugins.paymethod.pagseguro.purchase.amount">Quantia</message>
+	<message key="plugins.paymethod.pagseguro.purchase.description">Descrição</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cancelled">Sua negociação foi cancelada.</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cancelled.title">Negociação Cancelada</message>
+	<message key="plugins.paymethod.pagseguro.purchase.operator">Operadora</message>
+	<message key="plugins.paymethod.pagseguro.purchase.address">Endere&nbsp;o (Preencher todos os campos)</message>
+	<message key="plugins.paymethod.pagseguro.purchase.street">Rua</message>
+	<message key="plugins.paymethod.pagseguro.purchase.distreet">Bairro</message>
+	<message key="plugins.paymethod.pagseguro.purchase.city">Cidade</message>
+	<message key="plugins.paymethod.pagseguro.purchase.state">Estado (Sigla)</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cpf">CPF</message>
+	<message key="plugins.paymethod.pagseguro.purchase.cep">CEP</message>
+</locale>
